@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Chaticon</title>
+</head>
+<body>
+    <main>
+        <div id="header" class="d-flex">
+            <div class="titleWrap d-flex">
+                <h1>Chaticon</h1>
+            </div>
+            <div id="userWrap" class="alignCenter">
+                <span>Usuario: </span>
+                <span>jj.md947</span>
+            </div>
+            <div id="menuWrap" class="d-flex">
+                <button id="tiempo"></button>
+            </div>
+        </div>
+        <div id="chatWrap">
+            <div id="blackBoard" ></div>
+            <form id="form" class="d-flex">
+                <div class="alignCenter">
+                    <div id="iconsWrap" class="alignCenter"></div>
+                </div>
+                <div class="alignCenter">
+                    <input id="textInput" type="text">
+                    <button id="submit" type="submit" class="button">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <aside id="tiempoInfo" class="d-flex">
+        <button id="closeTiempo">X</button>
+        <form id="formTiempo">
+            <input type="text" id="ciudad">
+        </form>
+        <div id="tiempoData"></div>
+        <div id="tiempoData2"></div>
+        <div id="graficaTiempo"></div>
+    </aside>
+    <script src="./js/variables.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
